@@ -226,73 +226,40 @@ Output:
 ### Executive Business Dashboard
 ![Executive_Business_Dashboard](dashboard_screenshots/executive_business_dashboard.png)
 
-Business performance overview including:
-
-* Total Sales
-* Total Profit
-* Total Orders
-* Profit Margin
-* Sales by Region
-* Profit by Region
-* Profit by Category
 
 ### Operations Analytics Dashboard
 ![ Operations_Analytics_Dashboard](dashboard_screenshots/operation_analytics_dashboard.png)
 
 
-Operational monitoring and maintenance insights including:
-
-* Total Failures 
-* Average Vibration 
-* Average Pressure 
-* Machine Risk Score 
-* Failures by Components 
-* Failures by Model 
-* Failures Trend Over Time 
-* Top 10 Machines by Failure Count 
-
 ### Ecommerce Behavior Dashboard
 ![E_Commerce_Behavior_Dashboard](dashboard_screenshots/ecommerce_behavior_dashboard.png)
 
-
-Customer activity and conversion monitoring including:
-
-* Total Purchases 
-* Total Cart Adds 
-* Total Product Views 
-* Conversion Rate 
-* User Conversion Funnel 
-* User Activity Breakdown 
-* Top 10 Products by Engagement 
-* Conversion by Brand  
 
 ### Predictive Monitoring Dashboard
 ![Predictive_Monitoring_Dashboard](dashboard_screenshots/predictive_monitoring_risk_analytics.png)
 
 
-Predictive analytics and machine monitoring including:
-
-* Detected Anomalies   
-* Average Machine Risk Score   
-* 30-Day Failure Forecast Machine Risk Anomaly Detection   
-* High-Risk Machine Watchlist   
-
 
 ## Technology Used 
+
 ### Programming
 * Python
+  
 ### Data Processing
 * Pandas
 * NumPy
+  
 ### Database
 * PostgreSQL
 * SQLAlchemy
 * Psycopg2
+  
 ### Analytics & Machine Learning
 * SQL
 * Scikit-Learn
 * Prophet
 * SciPy
+  
 ### Visualization
 * Power BI
 * Matplotlib
