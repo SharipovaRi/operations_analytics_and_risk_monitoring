@@ -1,12 +1,22 @@
-from sqlalchemy import create_engine
+import os
 from urllib.parse import quote_plus
-import pandas as pd
 
-password = quote_plus("password")
+import pandas as pd
+from sqlalchemy import create_engine
+from dotenv import load_dotenv
+
+load_dotenv()
+
+db_user = os.getenv("DB_USER")
+db_password = quote_plus(os.getenv("DB_PASSWORD"))
+db_host = os.getenv("DB_HOST")
+db_port = os.getenv("DB_PORT")
+db_name = os.getenv("DB_NAME")
 
 engine = create_engine(
-    f"postgresql://postgres:{password}@localhost:5433/analytics_db"
+    f"postgresql://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}"
 )
+
 # Load Superstore data 
 superstore = pd.read_csv(
     "data/processed/superstore_clean.csv"

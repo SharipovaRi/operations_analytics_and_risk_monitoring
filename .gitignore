@@ -6,7 +6,9 @@ data/raw/
 data/processed/
 *.csv
 
-powerbi/*.pbix
+!reports/*.png
+!dashboard_screenshots/*.png
+!assets/*.png
 
 .env
 .DS_Store

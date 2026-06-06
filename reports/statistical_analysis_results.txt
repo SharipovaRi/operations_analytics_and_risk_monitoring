@@ -1,0 +1,18 @@
+
+Statistical Analysis: Normal vs Anomalous Machines
+
+Test:
+Independent two-sample t-test
+
+Metric:
+Average vibration
+
+T-statistic:
+-0.1155
+
+P-value:
+0.913156
+
+Interpretation:
+Result: No statistically significant difference detected.
+Anomalous machines do not show statistically different vibration levels.
