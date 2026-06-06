@@ -67,11 +67,20 @@ FROM failures
 GROUP BY failure
 ORDER BY total_failures DESC;
 
--- Machine telemetry metrics 
+
+-- Machine telemetry metrics
 SELECT
     machineid,
-    ROUND(AVG(vibration)::numeric, 2) AS avg_vibration,
-    ROUND(AVG(pressure)::numeric, 2) AS avg_pressure
+    ROUND(avg_vibration::numeric, 2) AS avg_vibration,
+    ROUND(avg_pressure::numeric, 2) AS avg_pressure
 FROM telemetry
-GROUP BY machineid
 ORDER BY avg_vibration DESC;
+
+-- Machine risk metrics
+SELECT
+    machineid,
+    ROUND(avg_vibration::numeric, 2) AS avg_vibration,
+    ROUND(avg_pressure::numeric, 2) AS avg_pressure,
+    ROUND(risk_score::numeric, 2) AS risk_score
+FROM machine_features
+ORDER BY risk_score DESC;
