@@ -177,10 +177,10 @@ Workflow:
 4. Export forecast outputs
 
 Outputs:
-
-`reports/failure_forecast.csv`
-`reports/failure_forecast.png`
-
+```
+reports/failure_forecast.csv
+reports/failure_forecast.png
+```
 ## Anomaly Detection
 
 Anomaly detection was implemented using Isolation Forest.
@@ -268,7 +268,6 @@ Predictive analytics and machine monitoring including:
 * Average Machine Risk Score   
 * 30-Day Failure Forecast Machine Risk Anomaly Detection   
 * High-Risk Machine Watchlist   
-
 
 
 ## Technology Used 
