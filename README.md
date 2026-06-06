@@ -222,7 +222,9 @@ Output:
 `reports/statistical_analysis_results.txt`
 
 ## Power BI Dashboards
+
 ### Executive Business Dashboard
+![Executive_Business_Dashboard](dashboard_screenshots/executive_business_dashboard.png)
 
 Business performance overview including:
 
@@ -235,6 +237,8 @@ Business performance overview including:
 * Profit by Category
 
 ### Operations Analytics Dashboard
+![ Operations_Analytics_Dashboard](dashboard_screenshots/operation_analytics_dashboard.png)
+
 
 Operational monitoring and maintenance insights including:
 
@@ -248,6 +252,8 @@ Operational monitoring and maintenance insights including:
 * Top 10 Machines by Failure Count 
 
 ### Ecommerce Behavior Dashboard
+![E_Commerce_Behavior_Dashboard](dashboard_screenshots/ecommerce_behavior_dashboard.png)
+
 
 Customer activity and conversion monitoring including:
 
@@ -261,6 +267,8 @@ Customer activity and conversion monitoring including:
 * Conversion by Brand  
 
 ### Predictive Monitoring Dashboard
+![Predictive_Monitoring_Dashboard](dashboard_screenshots/predictive_monitoring_risk_analytics.png)
+
 
 Predictive analytics and machine monitoring including:
 
@@ -312,6 +320,5 @@ Stages:
 
 ## Future Improvements
 
-* Add Power BI dashboard screenshots to the README for easier visualization of business and operational insights.
 * Add a detailed system architecture diagram illustrating the end-to-end workflow.
 
