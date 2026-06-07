@@ -18,9 +18,7 @@ In addition to traditional business intelligence reporting, the project includes
 
 ## Architecture
 
-The project workflow:
-
-Raw Data -> Data Cleaning & Transformation -> Feature Engineering -> PostgreSQL Data Warehouse -> SQL Analytics -> Forecasting & Anomaly Detection -> Power BI Dashboards
+![Architecture Design](assets/architecture_graph.png)
 
 ## Datasets
 ### Azure Predictive Maintenance
@@ -284,8 +282,4 @@ Stages:
 *  Anomaly Detection
 *  Statistical Analysis
 
-
-## Future Improvements
-
-* Add a detailed system architecture diagram illustrating the end-to-end workflow.
 
