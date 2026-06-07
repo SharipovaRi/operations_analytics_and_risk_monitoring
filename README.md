@@ -237,6 +237,17 @@ Output:
 ![Predictive_Monitoring_Dashboard](dashboard_screenshots/predictive_monitoring_risk_analytics.png)
 
 
+Key Insights
+
+While building the dashboards and analytics pipeline, several patterns emerged across the business, ecommerce, and operational datasets.
+
+* The business data showed approximately $2.3M in total sales and $286K in profit, resulting in a profit margin of about 12.5%. Performance varied noticeably across regions and product categories, highlighting areas with stronger profitability than others.
+* Customer behavior data revealed a significant drop-off between product views and completed purchases. With an overall conversion rate of roughly 1.6%, the results suggest that small improvements in the purchase funnel could have a meaningful impact on overall conversions.
+* Analysis of the Azure maintenance dataset identified 761 machine failures across different machine models and components. Monitoring these failures alongside telemetry metrics provided additional visibility into operational risk.
+* Machine-level risk scores were created using telemetry measurements and historical failure information, allowing machines to be ranked and monitored based on potential operational risk.
+* The anomaly detection model flagged 5 machines with unusual operating patterns. These machines may warrant additional investigation and demonstrate how anomaly detection can help focus maintenance efforts on the most critical assets.
+* Failure forecasting provided a forward-looking view of expected machine failures, illustrating how predictive analytics can support proactive maintenance planning rather than relying solely on historical reporting.
+* Statistical testing showed that vibration levels alone were not significantly different between anomalous and normal machines. This suggests that unusual machine behavior is better explained by a combination of telemetry variables rather than any single measurement.
 
 ## Technology Used 
 
@@ -281,5 +292,6 @@ Stages:
 *  Forecasting
 *  Anomaly Detection
 *  Statistical Analysis
+
 
 
