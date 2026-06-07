@@ -237,7 +237,7 @@ Output:
 ![Predictive_Monitoring_Dashboard](dashboard_screenshots/predictive_monitoring_risk_analytics.png)
 
 
-Key Insights
+## Key Insights
 
 While building the dashboards and analytics pipeline, several patterns emerged across the business, ecommerce, and operational datasets.
 
