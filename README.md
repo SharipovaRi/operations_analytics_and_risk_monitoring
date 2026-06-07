@@ -4,7 +4,7 @@
 
 This project combines operational, customer behavior, and business transaction data into a unified analytics platform built with Python, PostgreSQL, SQL, and Power BI.
 
-The goal is to create an end-to-end analytics workflow that incorporates feature engineering, forecasting, anomaly detection, and statistical analysis.
+The project demonstrates an end-to-end analytics workflow that incorporates feature engineering, forecasting, anomaly detection, and statistical analysis.
 
 The platform integrates data from three different datasets:
 
@@ -16,7 +16,18 @@ The data is cleaned and transformed using Python, stored in PostgreSQL, analyzed
 
 In addition to traditional business intelligence reporting, the project includes machine risk scoring, operational failure forecasting, anomaly detection, and hypothesis testing to support data-driven decision-making.
 
+## Project Highlights
+
+* Built an end-to-end analytics platform using Python, PostgreSQL, SQL, and Power BI.
+* Integrated three datasets containing operational, ecommerce, and business data.
+* Developed machine-level risk scoring and anomaly detection models using Scikit-Learn.
+* Generated machine failure forecasts using Prophet.
+* Designed four Power BI dashboards for executive reporting, operational monitoring, ecommerce analytics, and predictive risk assessment.
+* Implemented SQL analytics workflows supporting KPI reporting and business intelligence.
+  
 ## Architecture
+
+The platform follows a layered architecture that separates data ingestion, processing, analytics, machine learning, and reporting components to support scalable business intelligence and operational monitoring workflows.
 
 ![Architecture Design](assets/architecture_graph.png)
 
@@ -113,16 +124,17 @@ Examples include:
 
 Example risk score calculation:
 
+```
 risk_score = (
     avg_vibration * 0.4 +
     avg_pressure * 0.3 +
     failure_count * 0.3
 )
-
+```
 Output:
 `data/processed/machine_features.csv`
 
-## PostgreSQL Data Warehouse
+## Analytics Database
 
 Processed datasets are loaded into PostgreSQL using SQLAlchemy.
 
@@ -219,6 +231,14 @@ Output:
 
 `reports/statistical_analysis_results.txt`
 
+## Results
+
+* Generated a 30-day machine failure forecast using Prophet.
+* Detected 5 anomalous machines using Isolation Forest.
+* Developed machine-level risk scores using telemetry and historical failure data.
+* Built four Power BI dashboards supporting executive, operational, ecommerce, and predictive analytics use cases.
+* Performed statistical testing to evaluate differences between anomalous and normal machine populations.
+  
 ## Power BI Dashboards
 
 ### Executive Business Dashboard
@@ -249,29 +269,17 @@ While building the dashboards and analytics pipeline, several patterns emerged a
 * Failure forecasting provided a forward-looking view of expected machine failures, illustrating how predictive analytics can support proactive maintenance planning rather than relying solely on historical reporting.
 * Statistical testing showed that vibration levels alone were not significantly different between anomalous and normal machines. This suggests that unusual machine behavior is better explained by a combination of telemetry variables rather than any single measurement.
 
-## Technology Used 
+## Technology Stack
 
-### Programming
-* Python
-  
-### Data Processing
-* Pandas
-* NumPy
-  
-### Database
-* PostgreSQL
-* SQLAlchemy
-* Psycopg2
-  
-### Analytics & Machine Learning
-* SQL
-* Scikit-Learn
-* Prophet
-* SciPy
-  
-### Visualization
-* Power BI
-* Matplotlib
+| Category | Technologies |
+|-----------|-------------|
+| Programming | Python |
+| Data Processing | Pandas, NumPy |
+| Database | PostgreSQL, SQLAlchemy, Psycopg2 |
+| Querying | SQL |
+| Machine Learning | Scikit-Learn, Prophet |
+| Statistical Analysis | SciPy |
+| Visualization | Power BI, Matplotlib |
 
 
 ## Running the Project
