@@ -244,7 +244,7 @@ Output:
 ### Executive Business Dashboard
 Provides executive-level visibility into sales, profit, orders, margin performance, regional performance, and category profitability.
 
-![Executive_Business_Dashboard](dashboard_screenshots/executive_business_dashboard_screenshot.png)
+![Executive_Business_Dashboard](dashboard_screenshots/executive_business_dashboard_screenshot_1.png)
 
 
 ### Operations Analytics Dashboard
