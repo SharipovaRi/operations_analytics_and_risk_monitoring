@@ -242,19 +242,19 @@ Output:
 ## Power BI Dashboards
 
 ### Executive Business Dashboard
-![Executive_Business_Dashboard](dashboard_screenshots/executive_business_dashboard.png)
+![Executive_Business_Dashboard](dashboard_screenshots/executive_business_dashboard_screenshot.png)
 
 
 ### Operations Analytics Dashboard
-![ Operations_Analytics_Dashboard](dashboard_screenshots/operation_analytics_dashboard.png)
+![ Operations_Analytics_Dashboard](dashboard_screenshots/operation_analytics_dashboard_screenshot.png)
 
 
 ### Ecommerce Behavior Dashboard
-![E_Commerce_Behavior_Dashboard](dashboard_screenshots/ecommerce_behavior_dashboard.png)
+![E_Commerce_Behavior_Dashboard](dashboard_screenshots/e_commerce_behavior_dashboard_screenshot.png)
 
 
 ### Predictive Monitoring Dashboard
-![Predictive_Monitoring_Dashboard](dashboard_screenshots/predictive_monitoring_risk_analytics.png)
+![Predictive_Monitoring_Dashboard](dashboard_screenshots/predictive_monitoring_risk_analytics_dashboard_screenshot.png)
 
 
 ## Key Insights
