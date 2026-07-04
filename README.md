@@ -242,18 +242,26 @@ Output:
 ## Power BI Dashboards
 
 ### Executive Business Dashboard
+Provides executive-level visibility into sales, profit, orders, margin performance, regional performance, and category profitability.
+
 ![Executive_Business_Dashboard](dashboard_screenshots/executive_business_dashboard_screenshot.png)
 
 
 ### Operations Analytics Dashboard
+Monitors machine failures, component reliability, machine models, telemetry trends, and operational performance indicators.
+
 ![ Operations_Analytics_Dashboard](dashboard_screenshots/operations_analytics_dashboard_screenshot.png)
 
 
 ### Ecommerce Behavior Dashboard
+Analyzes customer engagement, conversion funnels, brand performance, product interactions, and purchase behavior.
+
 ![E_Commerce_Behavior_Dashboard](dashboard_screenshots/e_commerce_behavior_dashboard_screenshot.png)
 
 
 ### Predictive Monitoring & Risk Analytics Dashboard
+Combines machine risk scoring, anomaly detection, forecasting, and machine watchlists to support proactive maintenance planning.
+
 ![Predictive Monitoring & Risk Analytics Dashboard](dashboard_screenshots/predictive_monitoring_risk_analytics_dashboard_screenshot.png)
 
 
@@ -268,6 +276,19 @@ While building the dashboards and analytics pipeline, several patterns emerged a
 * The anomaly detection model flagged 5 machines with unusual operating patterns. These machines may warrant additional investigation and demonstrate how anomaly detection can help focus maintenance efforts on the most critical assets.
 * Failure forecasting provided a forward-looking view of expected machine failures, illustrating how predictive analytics can support proactive maintenance planning rather than relying solely on historical reporting.
 * Statistical testing showed that vibration levels alone were not significantly different between anomalous and normal machines. This suggests that unusual machine behavior is better explained by a combination of telemetry variables rather than any single measurement.
+
+## Business Impact
+
+This platform demonstrates how operational, customer, and business data can be integrated into a unified analytics environment to support:
+
+* Executive KPI reporting
+* Operational risk monitoring
+* Predictive maintenance planning
+* Customer conversion analysis
+* Data-driven decision making
+
+The project combines descriptive, diagnostic, predictive, and statistical analytics techniques within a single business intelligence workflow.
+
 
 ## Technology Stack
 
