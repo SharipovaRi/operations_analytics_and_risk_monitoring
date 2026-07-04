@@ -246,15 +246,15 @@ Output:
 
 
 ### Operations Analytics Dashboard
-![ Operations_Analytics_Dashboard](dashboard_screenshots/operation_analytics_dashboard_screenshot.png)
+![ Operations_Analytics_Dashboard](dashboard_screenshots/operations_analytics_dashboard_screenshot.png)
 
 
 ### Ecommerce Behavior Dashboard
 ![E_Commerce_Behavior_Dashboard](dashboard_screenshots/e_commerce_behavior_dashboard_screenshot.png)
 
 
-### Predictive Monitoring Dashboard
-![Predictive_Monitoring_Dashboard](dashboard_screenshots/predictive_monitoring_risk_analytics_dashboard_screenshot.png)
+### Predictive Monitoring & Risk Analytics Dashboard
+![Predictive Monitoring & Risk Analytics Dashboard](dashboard_screenshots/predictive_monitoring_risk_analytics_dashboard_screenshot.png)
 
 
 ## Key Insights
