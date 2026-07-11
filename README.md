@@ -65,30 +65,6 @@ Business transaction dataset containing:
 
 It is used for executive reporting and profitability analysis.
 
-## Project Structure
-```
-operations_analytics_and_risk_monitoring/
-
-assets/
-dashboard_screenshots/
-data/
-    raw/
-    processed/
-powerbi/
-reports/
-sql/
-src/
-    preprocessing/
-    features/
-    database/
-    models/
-README.md
-requirements.txt
-.gitignore
-.env.example
-
-```
-
 ## Data Processing
 ### Data Cleaning
 
@@ -302,6 +278,29 @@ The project combines descriptive, diagnostic, predictive, and statistical analyt
 | Statistical Analysis | SciPy |
 | Visualization | Power BI, Matplotlib |
 
+## Project Structure
+```
+operations_analytics_and_risk_monitoring/
+
+assets/
+dashboard_screenshots/
+data/
+    raw/
+    processed/
+powerbi/
+reports/
+sql/
+src/
+    preprocessing/
+    features/
+    database/
+    models/
+README.md
+requirements.txt
+.gitignore
+.env.example
+
+```
 
 ## Running the Project
 
